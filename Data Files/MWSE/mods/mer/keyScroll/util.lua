@@ -87,7 +87,6 @@ function Util.findScrollData(parent)
         end
     end
     recurse(parent)
-    mwse.log("Returning scrollPane: %s", scrollPaneData and scrollPaneData.scrollPane.name or "nil")
     return scrollPaneData
 end
 

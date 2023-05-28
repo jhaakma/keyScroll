@@ -1,10 +1,7 @@
+require("mer.keyScroll.mcm")
 local config  = require("mer.keyScroll.config")
 local util = require("mer.keyScroll.util")
-local mcm = require("mer.keyScroll.mcm")
-local logger = require("logging.logger").new{
-    name = "keyScroll",
-    logLevel = config.mcm.logLevel
-}
+local logger = util.createLogger("main")
 
 local upDownConfig = {
     up = {
