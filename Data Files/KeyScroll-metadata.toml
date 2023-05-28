@@ -1,0 +1,14 @@
+[package]
+name = "Key Scroller"
+description = "Use W/S or Up/Down to scroll through vertical scroll panes."
+authors = [ "Merlord",]
+version = "1.0.1"
+
+[dependencies]
+assets = [ "MWSE/mods/mer/keyScroll",]
+
+[dependencies.mwse]
+buildnumber = 3228
+
+[tools.mwse]
+lua-mod = "mer.keyScroll"
