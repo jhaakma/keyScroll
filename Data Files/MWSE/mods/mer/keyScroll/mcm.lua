@@ -3,10 +3,10 @@ local config = require("mer.keyScroll.config")
 local metadata = config.metadata
 
 local LINKS_LIST = {
-    -- {
-    --     text = "Release history",
-    --     url = "https://github.com/jhaakma/keyScroll/releases"
-    -- },
+    {
+        text = "Release history",
+        url = "https://github.com/jhaakma/keyScroll/releases"
+    },
     -- {
     --     text = "Wiki",
     --     url = "https://github.com/jhaakma/keyScroll/wiki"
